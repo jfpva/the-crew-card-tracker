@@ -35,28 +35,27 @@ a {
   font-weight: 300;
 }
 
-#red .num {
-  background-color: #e74c3c;
+#pink .num {
+  background-color: #C94992;
 }
 
 #yellow .num {
-  background-color: #f1c40f;
+  background-color: #ECAC1D;
 }
 
 #green .num {
-  background-color: #2ecc71;
+  background-color: #7DA325;
 }
 
 #blue .num {
-  background-color: #3498db;
+  background-color: #59ABE0;
 }
 
-#white .num {
-  background-color: #ffffff;
-  color: #242424 !important;
+#rocket .num {
+  background-color: #090A0A;
 }
 
-.number-tracker {
+.card-tracker {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,12 +64,12 @@ a {
 }
 
 @media all and (max-width: 500px) {
-  .number-tracker {
+  .card-tracker {
     flex-direction: row;
   }
 }
 
-.number-tracker .color-group {
+.card-tracker .color-group {
   flex: 1;
   display: flex;
   flex-direction: row;
@@ -81,85 +80,29 @@ a {
 }
 
 @media all and (max-width: 500px) {
-  .number-tracker .color-group {
+  .card-tracker .color-group {
     flex-direction: column;
   }
 }
 
-.number-tracker .color-group .num-group {
+.card-tracker .color-group .num-group {
   display: flex;
   flex-direction: row;
   height: initial;
 }
 
-.number-tracker .color-group .num-group .num {
+.card-tracker .color-group .num-group .num {
   flex: 1;
   color: #fff;
   text-align: center;
-  height: 2em;
-  line-height: 2em;
-  min-width: 2em;
-  margin: 4px;
-  border-radius: 4px;
+  height: 3em;
+  line-height: 3em;
+  min-width: 3em;
+  margin: 6px;
+  border-radius: 6px;
 }
 
-.number-tracker .color-group .num-group .num.inactive {
+.card-tracker .color-group .num-group .num.inactive {
   background-color: #ecf0f1 !important;
   color: #7f8c8d !important;
-}
-
-#hint-tracker {
-  position: relative;
-  width: 100%;
-  text-align: center;
-}
-
-#hint-tracker .mini-label {
-  font-size: .8rem;
-  font-weight: 300;
-  color: #7f8c8d;
-  margin: 0;
-}
-
-#hint-tracker .content-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: stretch;
-  align-items: stretch;
-  font-size: 3rem;
-}
-
-#hint-tracker .content-row #hints {
-  font-size: 1em;
-  font-weight: 700;
-  margin: 0;
-  line-height: 1em;
-  flex-basis: 1em;
-  color: rgba(0, 0, 0, 0.7);
-}
-
-#hint-tracker .content-row .hint-control {
-  flex: 1;
-  color: #95a5a6;
-  font-weight: 400;
-  font-size: .5em;
-  line-height: 2em;
-  padding: 0 1rem;
-  transition: color 400ms;
-}
-
-#hint-tracker .content-row .hint-control:hover {
-  color: #242424;
-}
-
-#hint-tracker .content-row .hint-control#minus-hint {
-  text-align: right;
-}
-
-#hint-tracker .content-row .hint-control#add-hint {
-  text-align: left;
-}
-
-#reset {
-  margin-top: 1rem;
 }

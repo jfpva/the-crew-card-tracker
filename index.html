@@ -2,122 +2,104 @@
 <html lang="en">
 
 <head>
-	<title>Hanabi Tracker</title>
+	<title>The Crew - Card Tracker</title>
 	<meta charset="UTF-8">
 	<!-- If IE use the latest rendering engine -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Simple number tracking for the card game, Hanabi">
-	<meta name="author" content="Wayne Cheng">
-	<meta name="keywords" content="hanabi,tracker,game,tracking,track">
+	<meta name="description" content="Simple card tracker for the game The Crew">
+	<meta name="author" content="">
+	<meta name="keywords" content="the crew,tracker,game,tracking,track">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="img/favicon.ico">
 </head>
 
 <body>
 	<main>
-		<section class="number-tracker">
-		<!-- red group -->
-		<ul class="color-group" id="red">
-			<li class="num-group">
-				<a class="num red" href="#!">1</a>
-				<a class="num red" href="#!">1</a>
-				<a class="num red" href="#!">1</a>
-				<a class="num red" href="#!">2</a>
-				<a class="num red" href="#!">2</a>
-			</li>
-			<li class="num-group">
-				<a class="num red" href="#!">3</a>
-				<a class="num red" href="#!">3</a>
-				<a class="num red" href="#!">4</a>
-				<a class="num red" href="#!">4</a>
-					<a class="num red" href="#!">5</a>
-			</li>
-		</ul>
-		<!-- green group -->
-		<ul class="color-group" id="green">
-			<li class="num-group">
-				<a class="num green" href="#!">1</a>
-				<a class="num green" href="#!">1</a>
-				<a class="num green" href="#!">1</a>
-				<a class="num green" href="#!">2</a>
-				<a class="num green" href="#!">2</a>
-			</li>
-			<li class="num-group">
-				<a class="num green" href="#!">3</a>
-				<a class="num green" href="#!">3</a>
-				<a class="num green" href="#!">4</a>
-				<a class="num green" href="#!">4</a>
-					<a class="num green" href="#!">5</a>
-			</li>
-		</ul>
-		<!-- white group -->
-		<ul class="color-group" id="white">
-			<li class="num-group">
-				<a class="num white" href="#!">1</a>
-				<a class="num white" href="#!">1</a>
-				<a class="num white" href="#!">1</a>
-				<a class="num white" href="#!">2</a>
-				<a class="num white" href="#!">2</a>
-			</li>
-			<li class="num-group">
-				<a class="num white" href="#!">3</a>
-				<a class="num white" href="#!">3</a>
-				<a class="num white" href="#!">4</a>
-				<a class="num white" href="#!">4</a>
-					<a class="num white" href="#!">5</a>
-			</li>
-		</ul>
-		<!-- yellow group -->
-		<ul class="color-group" id="yellow">
-			<li class="num-group">
-				<a class="num yellow" href="#!">1</a>
-				<a class="num yellow" href="#!">1</a>
-				<a class="num yellow" href="#!">1</a>
-				<a class="num yellow" href="#!">2</a>
-				<a class="num yellow" href="#!">2</a>
-			</li>
-			<li class="num-group">
-				<a class="num yellow" href="#!">3</a>
-				<a class="num yellow" href="#!">3</a>
-				<a class="num yellow" href="#!">4</a>
-				<a class="num yellow" href="#!">4</a>
-					<a class="num yellow" href="#!">5</a>
-			</li>
-		</ul>
-		<!-- blue group -->
-		<ul class="color-group blue" id="blue">
-			<li class="num-group">
-				<a class="num blue" href="#!">1</a>
-				<a class="num blue" href="#!">1</a>
-				<a class="num blue" href="#!">1</a>
-				<a class="num blue" href="#!">2</a>
-				<a class="num blue" href="#!">2</a>
-			</li>
-			<li class="num-group">
-				<a class="num blue" href="#!">3</a>
-				<a class="num blue" href="#!">3</a>
-				<a class="num blue" href="#!">4</a>
-				<a class="num blue" href="#!">4</a>
+		<section class="card-tracker">
+			<!-- blue group -->
+			<ul class="color-group" id="blue">
+			  <li class="num-group">
+					<a class="num blue" style="background-image: url('img/symbol_blue.jpg'); background-size: cover;"></a>
+			    <a class="num blue" href="#!">1</a>
+			    <a class="num blue" href="#!">2</a>
+			    <a class="num blue" href="#!">3</a>
+			    <a class="num blue" href="#!">4</a>
+				</li>
+				<li class="num-group">
 					<a class="num blue" href="#!">5</a>
-			</li>
-		</ul>
-	</section>
-	<section id="hint-tracker">
-		<p class="mini-label">Hints Remaining:</p>
-		<div class="content-row">
-			<a class="hint-control" href="#!" id="minus-hint"> - </a>
-			<h2 id="hints">8</h2>
-			<a class="hint-control" href="#!" id="add-hint"> + </a>
-		</div>
-	</section>
-	<!-- <a id="reset" href="#!" class="button">New Game</a> -->
+			    <a class="num blue" href="#!">6</a>		  
+			    <a class="num blue" href="#!">7</a>
+			    <a class="num blue" href="#!">8</a>
+			    <a class="num blue" href="#!">9</a>
+			  </li>
+			</ul>
+			<!-- pink group -->
+			<ul class="color-group" id="pink">
+			  <li class="num-group">
+					<a class="num blue" style="background-image: url('img/symbol_pink.jpg'); background-size: cover;"></a>
+			    <a class="num pink" href="#!">1</a>
+			    <a class="num pink" href="#!">2</a>
+			    <a class="num pink" href="#!">3</a>			  
+			    <a class="num pink" href="#!">4</a>
+				</li>
+				<li class="num-group">
+					<a class="num pink" href="#!">5</a>
+			    <a class="num pink" href="#!">6</a>
+			    <a class="num pink" href="#!">7</a>
+			    <a class="num pink" href="#!">8</a>
+			    <a class="num pink" href="#!">9</a>
+			  </li>
+			</ul>
+			<!-- yellow group -->
+			<ul class="color-group" id="yellow">
+			  <li class="num-group">
+					<a class="num blue" style="background-image: url('img/symbol_yellow.jpg'); background-size: cover;"></a>
+			    <a class="num yellow" href="#!">1</a>
+			    <a class="num yellow" href="#!">2</a>
+			    <a class="num yellow" href="#!">3</a>
+			    <a class="num yellow" href="#!">4</a>
+				</li>
+				<li class="num-group">
+					<a class="num yellow" href="#!">5</a>
+			    <a class="num yellow" href="#!">6</a>
+			    <a class="num yellow" href="#!">7</a>
+			    <a class="num yellow" href="#!">8</a>
+			    <a class="num yellow" href="#!">9</a>
+			  </li>
+			</ul>
+			<!-- green group -->
+			<ul class="color-group" id="green">
+				<li class="num-group">
+					<a class="num blue" style="background-image: url('img/symbol_green.jpg'); background-size: cover;"></a>
+					<a class="num green" href="#!">1</a>
+					<a class="num green" href="#!">2</a>
+					<a class="num green" href="#!">3</a>
+					<a class="num green" href="#!">4</a>
+				</li>
+				<li class="num-group">
+					<a class="num green" href="#!">5</a>
+					<a class="num green" href="#!">6</a>
+					<a class="num green" href="#!">7</a>
+					<a class="num green" href="#!">8</a>
+					<a class="num green" href="#!">9</a>
+				</li>
+			</ul>
+			<!-- rocket group -->
+			<ul class="color-group" id="rocket">
+			  <li class="num-group">
+					<a class="num blue" style="background-image: url('img/symbol_rocket.jpg'); background-size: cover;"></a>
+			    <a class="num rocket" href="#!">1</a>
+			    <a class="num rocket" href="#!">2</a>
+			    <a class="num rocket" href="#!">3</a>
+			    <a class="num rocket" href="#!">4</a>
+			  </li>
+			</ul>
+		</section>
 	</main>
 
-
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script> -->
 	<script src="tracker.js" type="text/javascript"></script>
 </body>
 
